@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- vant测试 -->
+  <view class="van-ellipsis">这是一段宽度限制 250px 的文字，后面的内容会省略</view>
+  <!-- 最多显示两行 -->
+  <view class="van-multi-ellipsis--l2">这是一段最多显示两行的文字，后面的内容会省略</view>
+  <!-- 最多显示三行 -->
+  <view class="van-multi-ellipsis--l3">这是一段最多显示三行的文字，后面的内容会省略</view>
+  <!-- 上边框 -->
+  <view class="van-hairline--top">213312</view>
+  <!-- 下边框 -->
+  <view class="van-hairline--bottom">213312</view>
+  <!-- 左边框 -->
+  <view class="van-hairline--left">213312</view>
+  <!-- 右边框 -->
+  <view class="van-hairline--right">213312</view>
+  <!-- 上下边框 -->
+  <view class="van-hairline--top-bottom"></view>
+  <!-- 全边框 -->
+  <view class="van-hairline--surround"></view>
+  <van-button class="my-button">按钮</van-button>
+  <van-button type="default">默认按钮</van-button>
+  <van-button type="primary">主要按钮</van-button>
+  <van-button type="info">信息按钮</van-button>
+  <van-button type="warning">警告按钮</van-button>
+  <van-button type="danger">危险按钮</van-button>
+  <van-icon name="close" />
+  <!-- weui测试 -->
+  <mp-icon type="field" icon="add" color="black" size="{{25}}"></mp-icon>
+  <mp-icon icon="add" color="black" size="{{25}}" id="animate"></mp-icon>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "van-icon": "@vant/weapp/icon/index",
+    "mp-icon": "/miniprogram_npm/weui-miniprogram/icon/icon"
+  }
+}
