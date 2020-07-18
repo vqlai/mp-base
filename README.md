@@ -17,14 +17,17 @@ app.wxss
 作用于所有页面
 
 目录结构
-assets-存放图片
 components-组件
+fonts-存放字体
+images-图片
+lib-第三方库
 miniprogram_npm-
 node_modules
 pages
+styles-公共样式
 subpackage1-依赖分包
 subpackage2-独立分包
-utils-js工具包
+utils-自定义js工具包
 
 控制包的大小
 提升体验最直接的方法是控制小程序包的大小，基本上可以说，1M的代码包，下载耗时1秒左右，控制方法如下：

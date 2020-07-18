@@ -6,6 +6,7 @@ page {
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
     Segoe UI, Arial, Roboto, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei',
     sans-serif;
+  --button-primary-background-color: green;
 }
 
 .container {
@@ -16,10 +17,13 @@ page {
   justify-content: space-between;
   /* padding: 200rpx 0; */
   box-sizing: border-box;
+  /* --button-border-radius: 10px;
+  --button-default-color: #f2f3f5; */
 } 
 
 /**vant定制样式**/
 .my-button {
   --button-border-radius: 10rpx;
   --button-default-color: red;
+  --button-default-background-color: blue;
 }
