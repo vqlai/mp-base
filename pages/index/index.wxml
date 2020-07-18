@@ -28,6 +28,8 @@
   <!-- weui测试 -->
   <mp-icon type="field" icon="add" color="black" size="{{25}}"></mp-icon>
   <mp-icon icon="add" color="black" size="{{25}}" id="animate"></mp-icon>
+  <!-- 测试iconfont -->
+  <view class="iconfont icon-msg" style="font-size: 60rpx;"></view>
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
